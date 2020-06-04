@@ -90,6 +90,8 @@ function love.load()
         ['silver'] = love.audio.newSource('Silver.wav', 'static'),
         ['gold'] = love.audio.newSource('Gold.wav', 'static'),
 
+        ['pause'] = love.audio.newSource('Pause.wav', 'static'),
+
         -- https://freesound.org/people/xsgianni/sounds/388079/
         ['music'] = love.audio.newSource('marios_way.mp3', 'static')
     }

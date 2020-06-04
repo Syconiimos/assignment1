@@ -12,6 +12,7 @@ function PauseState:enter(PlayState)
     self.first = true
     self.timer = 0
     self.count1 = 55
+    sounds['pause']:play()
     shaders:addToRender(self.PlayState)
 end
 
